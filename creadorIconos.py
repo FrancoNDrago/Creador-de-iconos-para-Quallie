@@ -1,14 +1,12 @@
 #Es necesario tener instalada la libreria "Pillow": pip install Pillow
 
-"""
-Para no volver a escribir las rutas dejarlas aca y escribir el nombre del icono al final:
+
+#Para no volver a escribir las rutas dejarlas aca y escribir el nombre del icono al final:
 
 
-Ruta de origen: 
+#Ruta de origen: 
 
-Ruta de destino:
-
-"""
+#Ruta de destino:
 
 
 from PIL import Image
