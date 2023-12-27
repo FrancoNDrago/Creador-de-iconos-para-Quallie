@@ -1,12 +1,15 @@
 #Es necesario tener instalada la libreria "Pillow": pip install Pillow
 
 
-#Para no volver a escribir las rutas dejarlas aca y escribir el nombre del icono al final:
 
+#Para no volver a escribir las rutas dejarlas aca y escribir el nombre del icono al final:
 
 #Ruta de origen: 
 
-#Ruta de destino:
+#Ruta de destino: 
+               
+
+#Aclaración: es posible tener problemas al querer comentar usando """. Es por eso que los comentarios estan hechos con #. 
 
 
 from PIL import Image
@@ -41,7 +44,7 @@ if __name__ == "__main__":
     nombres_imagenes = nombres_input.split("  ")
 
     # Solicitar al usuario la ruta de salida
-    output_dir = input("Ingrese la ruta donde desea descargar los iconos: ")
+    output_dir = input("Ingrese la ruta donde desea descargar los iconos (agregar una \ al final de la ruta): ")
 
     # Generar las imágenes
     generar_imagenes(input_file, nombres_imagenes, output_dir)
